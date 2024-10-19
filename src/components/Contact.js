@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css'; // Optional: Import CSS for styling
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -56,6 +57,21 @@ const Contact = () => {
       ) : (
         <p>{name}, your message is sent successfully!</p>
       )}
+      <footer className="footer">
+        
+        <div className="icon-links">
+          <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={30} />
+          </a>
+          <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={30} />
+          </a>
+          <a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={30} />
+          </a>
+        </div>
+        <p>&copy; 2024 Spandan Deb. All rights reserved.</p>
+      </footer>
     </div>
   );
 };

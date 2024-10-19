@@ -68,3 +68,32 @@ textarea {
 .submit-button:hover {
     background-color: #005bb5; /* Darker blue on hover */
 }
+.footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #0073e6;
+   
+  }
+  
+  .icon-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between icons */
+  }
+  
+  .icon-links a {
+    color: blue;
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .icon-links a:hover {
+    color: #0073e6; /* Change color on hover */
+  }
+  .footer p {
+    margin-top: 40px;
+    font-size: 16px; /* Adjust font size */
+    color: #666; /* Change text color if needed */
+  }
+  
