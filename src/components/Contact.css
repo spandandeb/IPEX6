@@ -1,0 +1,70 @@
+/* Contact.css */
+
+body {
+    margin: 0; 
+    padding: 0; /* Remove default padding */
+    background-color: #1c1c1c; /* Set background color to black */
+    color: white; 
+}
+
+.contact-container {
+    padding: 20px;
+    max-width: 600px; /* Set a max width for the form */
+    margin: 50px auto; /* Center the form on the page with some top margin */
+    background-color: #1c1c1c; /* Change form background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    width: 100%; /* Make the container take full width */
+}
+
+.contact-heading {
+    font-size: 28px;
+    color: #fff; /* Change heading color to white */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increased space between form groups */
+}
+
+label {
+    display: block; /* Stack label above input */
+    margin-bottom: 5px; /* Space between label and input */
+    color: yellow;
+    font-size: 20px;
+}
+
+input,
+textarea {
+    width: 100%; /* Full width inputs */
+    padding: 20px; /* Padding for input fields */
+    margin-bottom: 20px;
+    border: 1px solid #555; /* Darker border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    background-color: white; /* Darker input background */
+    color: blue; /* Text color inside inputs */
+    font-size: 28px;
+}
+
+textarea {
+    height: 120px; /* Increased height for the textarea */
+    color: blue;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    background-color: #1a73e8; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 20px;
+    
+    width: 100%; /* Full width button */
+}
+
+.submit-button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+}

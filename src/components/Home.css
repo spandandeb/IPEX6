@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Space between text and image */
+    align-items: center;
+    height: 100vh;
+    padding: 0 50px; /* Add some padding for spacing */
+    background-color: #1c1c1c; /* Dark background */
+    color: #ffffff; /* White text color */
+  }
+  
+  .textSection {
+    flex: 1; /* Takes up half the space */
+  }
+  
+  .imageSection {
+    flex: 1; /* Takes up half the space */
+    display: flex;
+    justify-content: center; /* Align the image to the right */
+  }
+  
+  .heading {
+    font-size: 36px;
+    color: #e0e0e0; /* Light gray text to complement dark background */
+    margin-bottom: 20px;
+  }
+  
+  .introduction {
+    font-size: 24px;
+    color: #cccccc; /* Lighter gray for subtext */
+  }
+  
+  .profilePic {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 3px solid #ffffff; /* White border for contrast */
+  }
+  

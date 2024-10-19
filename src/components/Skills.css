@@ -1,0 +1,39 @@
+.skills-container {
+    padding: 40px;
+    text-align: center;
+    background-color: #1c1c1c;
+    justify-content: center;
+    
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .skills-heading {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .skills-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    margin: 15px;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 50px;
+    color: #1a73e8; /* You can change this color to fit your theme */
+  }
+  
+  .skill p {
+    margin-top: 10px;
+    font-size: 18px;
+    color:white;
+    
+  }
+  
