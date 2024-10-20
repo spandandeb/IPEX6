@@ -5,7 +5,7 @@ import './Navbar.css'; // Import the CSS file
 function Navbar() {
   return (
     <nav className="navbar">
-      {/* Add a logo here if needed */}
+      
       <div className="logo">My Portfolio</div>
       <ul className="navLinks">
         <li>

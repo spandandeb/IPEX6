@@ -52,7 +52,7 @@ const Contact = () => {
               required 
             />
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit" className='submit-button'>Submit</button>
         </form>
       ) : (
         <p>{name}, your message is sent successfully!</p>
